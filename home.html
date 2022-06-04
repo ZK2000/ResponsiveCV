@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    <title>Responsive CV</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html"><img src="logo pic.png" alt="" width="50px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">About Me</a>
+                </li>
+            </ul>
+        
+            <!-- Button trigger modal -->
+            <button type="button" class="login-btn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Contact Me
+            </button>
+    </nav>
+
+    <br>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title offset-5" id="exampleModalLabel"><strong>Contact Me</strong></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                                
+                            <form action="" class="formgroup">
+                                <div>
+                                    <input type="text" placeholder="Enter Name" required><br><br>
+                                    <input type="email" placeholder="e.g@email.com" required><br><br>
+                                    <textarea name="comment" cols="30" rows="5" placeholder="Enter Your Comments Here!" required></textarea><br><br>
+                                </div>
+                                    <button type="submit" class="sendbtn btn btn-outline-success">SEND</button><br><br>
+                            </form>
+                        
+                                <div class="return-link">
+                                    <a href="home.html">Go Back</a>
+                                </div>    
+                </div>
+            </div>
+                </div>
+            </div>
+
+            <div id="home-container"> 
+                <div class="card bg-dark text-black">
+                    <img src="bgpic.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h1 class="card-title"></h1>
+                      <h3 class="card-text"><i>Muhammad Zain Khan</i></h3>
+                      <h3 class="card-text"><i>0300-2555118</i></h3>
+                      <div class="card-deck">
+                        <div class="card">
+                          <img src="py2.png" class="card-img-top" alt="..." height="235px">
+                          <div class="card-body">
+                            <h5 class="card-title">Python</h5><hr>
+                            <p class="card-text">I am a professional Python developer finance and fintech. Well-acquainted with database engineering, data warehouses, and data processing. Knowledgeable in Python frameworks related to data such as SciPy, NumPy, Matplotlib. Cloudera certified Data analyst, PCPP-1 certification and Spark/Hadoop developer certification.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">2 Years of Experience</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="html.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">HTML, CSS & JS</h5><hr>
+                            <p class="card-text">I am a professional Frontend Developer, having professional work experience in this field. I can assure you the best ever output with the flavor of experience built-in!
+                                I will code a fully responsive website based on your XD, PSD, Sketch or PDF file.
+                                <br>I work on:<br>
+                                1. HTML5<br>
+                                2. CSS3<br>
+                                3. Jquery<br>
+                                4. Bootstrap 4</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">3 Years of Experience</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="db.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">DataBase</h5><hr>
+                            <p class="card-text">I am a professional database designer and do database design and SQL queries, er, ER diagram, SQL, MySQL database for you any kind of project/website/Software
+                             I will do database designing tasks and SQL/MySQL queries tasks within your time. I have 4+ years of experience in database designing. I am a professional in the database, who is offering these services after a vast experience in the client-based project.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">6 Months of Experience</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>    
+                </div><br><br>
+                <div class="return-link">
+                    <a href="home.html">Go Back</a>
+                </div>    
+            
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
